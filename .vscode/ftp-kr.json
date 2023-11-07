@@ -1,0 +1,16 @@
+{
+    "host": "ftp.martingerlero.com",
+    "username": "vscode@holapy.com.ar",
+    "password": "Piramide290",
+    "remotePath": "/",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}

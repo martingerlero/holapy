@@ -1,0 +1,37 @@
+{
+  "ftp://vscode@holapy.com.ar@ftp.martingerlero.com": {
+    ".ftpquota": {
+      "type": "-",
+      "size": 12,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".gitignore": {
+      "type": "-",
+      "size": 388,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".htaccess": {
+      "type": "-",
+      "size": 281,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".vscode": {},
+    ".well-known": {},
+    "controlador": {},
+    "css": {},
+    "img": {},
+    "index.php": {
+      "type": "-",
+      "size": 1961,
+      "lmtime": 0,
+      "modified": false
+    },
+    "modelo": {},
+    "static": {},
+    "vista": {}
+  },
+  "$version": 1
+}

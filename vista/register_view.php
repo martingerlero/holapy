@@ -3,7 +3,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Login - HolaPy</title>
+        <title>Registrar Usuario - HolaPy</title>
         <link rel="stylesheet" href="../static/css/materialize.min.css">
         <script src="../static/js/materialize.min.js"></script>
         <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel=stylesheet />
@@ -14,14 +14,16 @@
             <p class=center><img src="../img/logo_login.png" alt='Starbucks' width="50%" height="50%" /></p>
             <p style="color: #b9151b"><?=$_SESSION['mensaje']?></p>
                 <div class='card-content'> 
-                    <form action="../controlador/validarLogin.php" method="POST">
+                    <p>Complete el siguiente formulario para registrarse</p><br>
+                    <form action="" method="POST">
                         <p><i class="material-icons silver">person</i> Email:</p>
-                        <p><input class="field-input validate" type="text" name="username" id="username" /></p>
+                        <p><input class="field-input validate" type="text" name="email" id="email" /></p>
                         <p><i class='material-icons silver'>lock</i> Contraseña:</p>
-                        <p><input class='field-input validate' type="password" name="password" id="password" /></p>
-                        <p><button class='btn purple darken-1' type="submit" value="Login">Iniciar sesi&oacute;n</button></p>
+                        <p><input class='field-input validate' type="password" name="password1" id="password" /></p>
+                        <p><i class='material-icons silver'>lock</i>Repetir Contraseña:</p>
+                        <p><input class='field-input validate' type="password" name="password2" id="password" /></p>
+                        <p><button class='btn purple darken-1' type="submit" value="Registrar">Registrarme</button></p>
                     </form>
-                    <br><p>¿No tenés usuario? <a href="?c=usuario_controller&&a=registrar_usuario" >Registrate</a></p>
                 </div>
         </div>
     </center>

@@ -1,8 +1,59 @@
 /* 
-    Created on : 24/08/2017, 15:04:51
+    Created on : Noviembre 2023
     Author     : Gerlero Martin
 */
 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ocupa el 100% de la altura visible del viewport */
+    overflow-x: hidden; /* Para ocultar la barra de desplazamiento horizontal que podría aparecer */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left-section {
+    flex: 1; /* Ocupa el 20% del contenedor */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-section {
+    flex: 4; /* Ocupa el 80% del contenedor */
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .nav-wrapper{
-    background-color:#b3e8ba;
+    background-color:#3B2D4C;
+}
+
+/* Agrega el CSS que ya tienes */
+
+/* Agrega estilos para la nueva estructura */
+
+.header {
+    background-color: #3B2D4C;
+    color: white;
+}
+
+.footer {
+    background-color: #3B2D4C;
+    color: white;
+}
+
+.tema-enable {
+    color: white; /* Color de texto blanco */
+}
+
+.tema-disabled {
+    color: #9999; /* Color de texto gris oscuro, puedes cambiarlo según tus preferencias */
 }

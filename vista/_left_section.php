@@ -1,11 +1,11 @@
 <div class="left-section">
         <!-- Contenido de la sección izquierda -->
         <h4 class="tema-enable">Tema 1: Introducción a Python</h4>
-            <p class="tema-enable">Fundamentos de Python</p>
-            <p class="tema-enable">Instalación del entorno de desarrollo</p>
-            <p class="tema-enable">Primer programa en Python</p>
-            <p class="tema-enable">Variables y tipos de datos</p>
-            <p class="tema-enable">Operadores básicos</p>
+            <p class="tema-enable"><a href="?c=curso_controller&&a=teorico_1_1">Fundamentos de Python</a></p>
+            <p class="tema-enable"><a href="?c=curso_controller&&a=teorico_1_2">Instalación del entorno de desarrollo</a></p>
+            <p class="tema-enable"><a href="?c=curso_controller&&a=teorico_1_3">Primer programa en Python</a></p>
+            <p class="tema-enable"><a href="?c=curso_controller&&a=teorico_1_4">Variables y tipos de datos</a></p>
+            <p class="tema-enable"><a href="?c=curso_controller&&a=teorico_1_5">Operadores básicos</a></p>
 
         <h4 class="tema-disabled">Tema 2: Estructuras de Control</h4>
             <p class="tema-disabled">Condicionales (if, else, elif)</p>

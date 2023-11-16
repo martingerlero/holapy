@@ -4,8 +4,11 @@
     <head>
         <meta charset="utf-8">
         <title>Login - HolaPy</title>
-        <link rel="stylesheet" href="../static/css/materialize.min.css">
-        <script src="../static/js/materialize.min.js"></script>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                
         <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel=stylesheet />
     </head>
     <body background="../img/fondo_login.jpg">
@@ -26,4 +29,4 @@
         </div>
     </center>
     </body>
-</html>
+</html> 

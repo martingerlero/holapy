@@ -24,7 +24,7 @@ include_once '_left_section.php';
                 HolaPy
             </div>
         </div>
-        <center>Seleccione un contenido habilitado desde el menu izquierdo </center>
+        Seleccione un contenido habilitado desde el menu izquierdo
     </div>
 </div>
 <?php

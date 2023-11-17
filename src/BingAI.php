@@ -1,6 +1,11 @@
 <?php
-
 namespace MaximeRenou\BingAI;
+
+require 'src/Chat/Conversation.php';
+require 'src/Chat/Tone.php';
+require 'src/Chat/Prompt.php';
+require 'src/Chat/Message.php';
+require 'src/Chat/MessageType.php';
 
 use MaximeRenou\BingAI\Chat\Conversation;
 use MaximeRenou\BingAI\Images\ImageCreator;

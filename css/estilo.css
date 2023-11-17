@@ -118,3 +118,7 @@ body {
 .right-section p {
     margin-bottom: 10px;
 }
+
+pre {
+    white-space: pre-wrap;
+  }

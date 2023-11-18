@@ -122,3 +122,13 @@ body {
 pre {
     white-space: pre-wrap;
   }
+
+.fail-box {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto; 
+  }

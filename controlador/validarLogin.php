@@ -15,7 +15,8 @@ $conexionbd = new baseDeDatos();
 //Validamos el login
 $sql="SELECT nroDni, usuario, pass FROM Usuario WHERE usuario LIKE '$username' AND pass LIKE '$password'";
 $resultado=$conexionbd->consulta($sql);
-if(count($resultado)==1)
+
+if(!is_null($resultado) AND count($resultado)==1)
 {
 	//echo "entre al if";
     $_SESSION['nroDni']=$resultado[0][0];

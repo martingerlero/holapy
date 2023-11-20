@@ -35,6 +35,14 @@ function consulta($sql) {
     }
     mysqli_close($conexion);
 	//echo "Dev: ".$devolver;
-    return $devolver;
+    if(isset($devolver))
+    {
+        return $devolver;
+    }
+    else
+    {
+        return null;
+    }
+    
 }
 }

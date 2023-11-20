@@ -7,6 +7,7 @@
 function index()
 {
     session_start();
+    $_SESSION['mensaje']="";
     if(isset($_SESSION['usuario']))
     {
         include_once 'vista/inicio_view.php';
